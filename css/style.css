@@ -1,18 +1,19 @@
 h1 {
 	text-align: center;
 	font-size: 55px;
-	color: navy;
+	color: white;
 	font-style: italic;
+	background-color: grey;
 }
 
 h2 {
     font-size: 32px;
-    color: navy;
+    font-style: bold;
 }
 
 h3 {
     font-size: 26px;
-    color: navy;
+    font-style: bold;
 }
 
 body {
@@ -24,6 +25,21 @@ div {
 }
 
 p {
-	font-size: 20px;
-	color: navy;
+	font-size: 22px;
+	font-style: bold;
+}
+
+li {
+	font-size: 22px;
+	font-style: bold;
+}
+
+#rcorners3 {
+  border-radius: 75px;
+  background: url(paper.gif);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 550px;
+  height: 700px; 
 }
